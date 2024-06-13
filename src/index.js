@@ -1,17 +1,52 @@
+// App.js
+
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import NavBar from './components/NavBars';
+import NotificationSection from './components/NotificationSection';
+import './index.css'; // Import global CSS file for styling
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+function index() {
+  // Dummy data for demonstration
+  const notification = [
+    {
+      id: 1,
+      title: 'Introduction to React.js',
+      description: 'Learn the basics of React.js and its core concepts.',
+      timings: 'June 25, 2024 at 10:00 AM',
+      venue: 'Online'
+    },
+    {
+      id: 2,
+      title: 'Advanced JavaScript Techniques',
+      description: 'Explore advanced JavaScript techniques and best practices.',
+      timings: 'July 5, 2024 at 2:00 PM',
+      venue: 'In-person'
+    },
+    {
+      id: 3,
+      title: 'Advanced JavaScript Techniques',
+      description: 'Explore advanced JavaScript techniques and best practices.',
+      timings: 'July 5, 2024 at 2:00 PM',
+      venue: 'online'
+    },
+    {
+      id: 4,
+      title: 'Advanced JavaScript Techniques',
+      description: 'Explore advanced JavaScript techniques and best practices.',
+      timings: 'July 5, 2024 at 2:00 PM',
+      venue: 'In-person'
+    },
+    {
+      id: 5,
+      title: 'Advanced JavaScript Techniques',
+      description: 'Explore advanced JavaScript techniques and best practices.',
+      timings: 'July 5, 2024 at 2:00 PM',
+      venue: 'online'
+    },
+    // Add more seminar objects as needed
+  ];
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  
+}
+
+export default index;
