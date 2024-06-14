@@ -28,7 +28,7 @@ function App() {
       title: 'Advanced JavaScript Techniques',
       description: 'Explore advanced JavaScript techniques and best practices.',
       timings: 'July 5, 2024 at 2:00 PM',
-      venue: 'online'
+      venue: 'In-person'
     },
     {
       id: 4,
@@ -42,8 +42,9 @@ function App() {
       title: 'Advanced JavaScript Techniques',
       description: 'Explore advanced JavaScript techniques and best practices.',
       timings: 'July 5, 2024 at 2:00 PM',
-      venue: 'online'
+      venue: 'In-person'
     },
+    
     // Add more seminar objects as needed
   ];
 
